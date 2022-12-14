@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SvetlanaMarkina/comment-sistem-JS-TS/issues"
   },
-  "homepage": "https://github.com/SvetlanaMarkina/comment-sistem-JS-TS#readme"
+  "homepage": "https://github.com/SvetlanaMarkina/comment-sistem-JS-TS#readme",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
 }
