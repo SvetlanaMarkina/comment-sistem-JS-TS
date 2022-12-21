@@ -88,7 +88,88 @@
       </div>
 
       <div class="commentSystem__user">
-          
+        <div class="user__foto">
+          <img class="foto" src="./img/Mask group.png" alt="foto">   
+        </div>
+        <div class="user__info">
+          <div class="user__title">
+            <h3 class="user__name">Максим Авдеенко</h3>
+            <p class="user__maxNumb">Макс. 1000 символов</p>
+          </div>
+          <form class="user__form">
+            <textarea class="user__text" type="text" placeholder="Введите текст сообщения..." maxlength="1000" row="1" col="1" ></textarea>
+            <button class="user__button" type="button">Отправить</button>
+            <p class="user__maxMessage">Слишком длинное сообщение</p>
+          </form>
+        </div>      
+      </div>
+
+      <div class="commentSystem_comments">
+        <div class="comments__comment">
+          <div class="comments__foto">
+            <img class="foto" src="./img/Mask group.png" alt="foto"> 
+          </div>
+          <div class="comments__info">
+            <div class="comments__title">
+              <h3 class="comments__name">Максим Авдеенко</h3>
+              <time class="comments__time" datetime="2022-01-15T13:55">15.01 13:55</time>  
+            </div>
+              <time class="comments__time" datetime="2022-01-15T13:55">15.01 13:55</time>  
+            <p class="comments__text">
+              Самое обидное когда сценарий по сути есть - в виде книг, где нет сюжетных дыр, всё логично, стройное повествование и достаточно взять и экранизировать оригинал как это было в первых фильмах с минимальным количеством отсебятины и зритель с восторгом примет любой такой фильм и сериал, однако вместо этого 'Кольца власти' просто позаимствовали имена из оригинала, куски истории, мало связанные между собой и выдали очередной среднячковый сериал на один раз в лучшем случае.
+            </p>
+            <div class="comments__buttons">
+              <button class="comments__btnAnswer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none" viewBox="0 0 16 16">
+                  <path d="M5.921 11.9 1.353 8.62a.719.719 0 0 1 0-1.238L5.921 4.1A.716.716 0 0 1 7 4.719V6c1.5 0 6 0 7 8-2.5-4.5-7-4-7-4v1.281c0 .56-.606.898-1.079.62z" fill="black" fill-opacity="0.4"/>
+                </svg>Ответить
+              </button>
+              <button class="comments__btnSelected">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" fill="black" fill-opacity="0.4"/>
+                </svg>В избранном
+              </button>
+              <div class="comments__rating">
+                <button class="minus">-</button>
+                <span class="rating">0</span>
+                <button class="plus">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="comments__answer">
+          <div class="comments__foto">
+            <img class="foto" src="./img/Mask group.png" alt="foto">  
+          </div>
+          <div class="comments__info">
+            <div class="comments__title">
+              <h3 class="comments__name">Максим Авдеенко</h3>
+              <h3 class="comments__reply">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none" viewBox="0 0 16 16">
+                  <path d="M5.921 11.9 1.353 8.62a.719.719 0 0 1 0-1.238L5.921 4.1A.716.716 0 0 1 7 4.719V6c1.5 0 6 0 7 8-2.5-4.5-7-4-7-4v1.281c0 .56-.606.898-1.079.62z" fill="black" fill-opacity="0.4"/>
+                </svg>Максим Авдеенко
+              </h3>
+              <time class="comments__time" datetime="2022-01-15T15:18">15.01 15:18</time>  
+            </div>
+            <p comments__text>
+              Наверное, самая большая ошибка создателей сериала была в том, что они поставили уж слишком много надежд на поддержку фанатов вселенной. Как оказалось на деле, большинство 'фанатов' с самой настоящей яростью и желчью стали уничтожать сериал, при этом объективности в отзывах самый минимум.  
+            </p>
+            <div class="comments__buttons">
+              <button class="comments__btnSelected">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" fill="white" stroke="rgba(0, 0, 0, 0.4)"/>
+                </svg>В избранное
+              </button>
+              <div class="comments__rating">
+                <button class="minus">-</button>
+                <span class="rating">0</span>
+                <button class="plus">+</button>
+              </div>
+            </div>
+            
+          </div> 
+        </div>
       </div>
 
 
@@ -96,13 +177,7 @@
     
     </div>
   </main>
-    
-  <footer>
-
-  </footer>
    
- 
-
   <script type="module" src="./index.js"></script>
 </body>
 
